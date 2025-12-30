@@ -8,6 +8,9 @@ project(Hexel
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/")
+include(Docs)
+
 function(hexel_set_target_folder target folder)
     set_target_properties(${target} PROPERTIES FOLDER ${folder})
 endfunction(hexel_set_target_folder)
