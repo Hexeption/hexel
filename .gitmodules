@@ -1,0 +1,10 @@
+[submodule "External/bgfx"]
+	path = External/bgfx
+	url = https://github.com/bkaradzic/bgfx.cmake
+[submodule "External/glfw"]
+	path = External/glfw
+	url = https://github.com/glfw/glfw
+[submodule "External/imgui/imgui"]
+	path = External/imgui/imgui
+	url = https://github.com/ocornut/imgui
+	branch = docking

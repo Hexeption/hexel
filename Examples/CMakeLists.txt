@@ -1,0 +1,2 @@
+set(HEXEL_EXECUTABLE_FOLDER Examples)
+add_subdirectory(TestingPlayground)
