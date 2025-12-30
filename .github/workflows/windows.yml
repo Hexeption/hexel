@@ -25,4 +25,4 @@ jobs:
     - name: Build
       shell: bash
       working-directory: ${{github.workspace}}/build
-      run: cmake --build . --config ${{ matrix.build_type }} --parallel 10
+      run: cmake --build . --config ${{ matrix.build-type }} --parallel 10
